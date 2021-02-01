@@ -4,7 +4,7 @@
 #define true 0
 #define false 1
 
-int stgeq(char val1[100], char val2[100]) {
+int streq(char val1[100], char val2[100]) {
     if (strcmp(val1,val2) == 0) return 0;
     if (strcmp(val1,val2) == 1) return 1;
 }
