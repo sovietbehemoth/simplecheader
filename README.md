@@ -1,10 +1,9 @@
 # simplecheader
 Simple header file I made to make my C coding easier
 
-Functions::
 printr: Prints string specified number of times. Line break not included.
 EX: printr("hello\n", 5); 
-^ will print 'hello' 5 times
+will print 'hello' 5 times
 
 stgeq: alternative for strcmp used for checking if strings are equal.
 EX: if (stgeq("hello", "hello") == truue)) printf("true\n");
